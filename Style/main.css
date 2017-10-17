@@ -1,0 +1,107 @@
+@charset "utf-8";
+div h1 {
+	text-align: center;
+
+
+
+}
+body {
+	background-color: #C4AC35;
+
+}
+
+
+
+body ul {
+	left: 0px;
+	right: 0px;
+
+}
+.pics {
+	text-align: center;
+	padding-right: 38px;
+	width: 100%;
+}
+div img {
+	border: 5px solid #000000;
+	border-radius: 6px;
+	width: 11%;
+}
+
+body script {
+	margin-left: 420px;
+
+
+
+}
+.video {
+	vertical-align: middle;
+	margin-bottom: 45px;
+	margin-right: 201px;
+	margin-top: -625px;
+
+}
+.viddiv {
+	text-align: right;
+	height: 307px;
+	padding-bottom: 42px;
+}
+.bottom {
+	width: 99%;
+	text-align: right;
+	border-color: #DCB200;
+	position: absolute;
+
+}
+.twitter {
+	width: 21%;
+	height: 2%;
+	max-height: 11%;
+}
+.float-left-area  {
+	width: 100%;
+	float: left;
+}
+.inner-left	  {
+	margin-right: 10px;
+	border: #999999 1px solid;
+	min-height: 60px;
+	width: 98%;
+	text-align: center;
+}
+.mainpic {
+	width: 100%;
+	margin-left: 11px;
+}
+.header {
+	width: 100%;
+	height: 129px;
+}
+.header h1 {
+	color: #000000;
+	font-size: 378%;
+}
+footer {
+	text-align: center;
+	width: 100%;
+	margin-top: 532px;
+}
+.viddiv ul {
+	text-align: center;
+	height: 10%;
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 97%;
+	margin-left: 9px;
+	margin-right: 88px;
+}
+ul a h2 {
+	width: 4%;
+	display: inherit;
+	margin-right: 99px;
+	margin-left: 93px;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.pics ul img {
+}

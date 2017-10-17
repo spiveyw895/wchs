@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WCHS</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="main">
+
+<link href="Style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div>
+   <div class="float-left-area">
+<div class="inner-left">
+
+<h1></h1>
+<img src="Images/desk1.jpg" alt="" width="100%" height="600" class="mainpic"/>
+</div>
+</div>
+    
+    <h1>WCHS News</h1>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="viddiv">
+	<ul>
+ 	<a href="https://twitter.com/wchsnewsch4"><h2>WCHS Twitter</h2></a><a href="https://www.instagram.com/wchsnews2017"><h2>WCHS Instagram</h2></a><a href="https://facebook.com/chswchsnews"><h2>WCHS Facebook</h2></a><a href="Staff.html"><h2>WCHS News Team</h2></a>
+  	
+   	
+   	</ul>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<iframe id="youtube_video" width="1200" height="680" frameborder="0" allowfullscreen></iframe>
+
+<script>
+var channelID = "UCQ8Lzvb0mSz0p5XAmZoW1zw";
+$.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D'+channelID, function(data) {
+   var link = data.items[0].link;
+   var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+});
+</script>
+
+    <a class="twitter-timeline twitter" data-width="300" data-height="700" href="https://twitter.com/wchsnewsch4">Tweets by wchsnewsch4</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+</body>
+<footer>
+	<a href="https://www.weatherforyou.com/reports/index.php?forecast=zandh&pands=inverness,florida"><img src="Images/_notes/hw3.png" width="140" height="70" alt=""/></a>
+	<a href="https://fspa.wildapricot.org/"><img src="Images/_notes/fspa.jpg" width="132" height="65" alt=""/></a>
+	<a href="http://www.baynews9.com/content/news/baynews9/sports/varsity-reporter/citrus-high-school.html"><img src="Images/_notes/spectrumsports.jpg" width="195" height="64" alt=""/></a>
+</footer>
+</html>
